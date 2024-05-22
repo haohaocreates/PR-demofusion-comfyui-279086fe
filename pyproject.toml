@@ -1,0 +1,15 @@
+[project]
+name = "demofusion-comfyui"
+description = "The Demofusion Custom Node is a wrapper that adapts the work and implementation of the [a/DemoFusion](https://ruoyidu.github.io/demofusion/demofusion.html) technique created and implemented by Ruoyi Du to the Comfyui environment."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["diffusers~=0.21.4", "matplotlib"]
+
+[project.urls]
+Repository = "https://github.com/deroberon/demofusion-comfyui"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "demofusion-comfyui"
+Icon = ""
